@@ -1,6 +1,8 @@
-let output= document.getElementById("outputxd").innerHTML
-let lastnumber=1;
-setTimeout(function () {
-   output= lastnumber*2 + "<br>" 
-   lastnumber= lastnumber*2
-}, 100)
+let outputElement = document.getElementById("outputxd");
+let lastnumber = 1;
+
+setInterval(function () {
+    outputElement.innerHTML += lastnumber * 2 + "<br>";
+    lastnumber = lastnumber * 2;
+}, 100);
+
