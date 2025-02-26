@@ -1,4 +1,4 @@
-window.location="./#last"
+window.location.replace("./#last")
 
 let outputElement = document.getElementById("outputxd");
 let lastnumber = 1;
