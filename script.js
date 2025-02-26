@@ -6,5 +6,6 @@ let lastnumber = 1;
 setInterval(function () {
     outputElement.innerHTML += count+". "+lastnumber * 2 + "<br>";
     lastnumber = lastnumber * 2;
+    count= count+1;
 }, 100);
 
