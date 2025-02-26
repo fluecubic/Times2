@@ -1,3 +1,5 @@
+window.location="./#last"
+
 let outputElement = document.getElementById("outputxd");
 let lastnumber = 1;
 
