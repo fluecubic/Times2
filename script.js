@@ -7,5 +7,5 @@ setInterval(function () {
     lastnumber = lastnumber * 2;
     count= count+1;
     window.location.replace("./#last")
-}, 100);
+}, 10);
 
